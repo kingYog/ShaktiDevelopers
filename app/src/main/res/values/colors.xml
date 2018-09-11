@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#FFFFFF</color>
+    <color name="colorGrey">#dee2e2</color>
+    <color name="colorGreen">#38c106</color>
+    <color name="colorRED">#ed0806</color>
+
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="new_color_Shade2">#0abfc2</color>
+
+    <color name="new_color_background_start">#009293</color>
+    <color name="new_color_background_end">#007293</color>
+    <color name="new_color_button">#41D3FF</color>
+    <color name="new_color_Shade3">#00A9AC</color>
+    <color name="new_color_lear">#01ADDF</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="dashboard_detail_text_sporttypeColor">#2AB8BC</color>
+    <color name="dashboard_detail_text_quize">#CF0355</color>
+    <color name="dashboard_detail_text_Timer">#F05759</color>
+    <color name="dashboard_detail_text_Entries_btn">#27878E</color>
+    <color name="dashboard_detail_btn_blue">#EFC20C</color>
+    <color name="dashboard_detail_btn_unselect">#04364C</color>
+
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorBlueLight">#64B5F6</color>
+    <color name="colorTeal">#004D40</color>
+    <color name="colorTealLight">#009688</color>
+    <color name="colorTealLight1">#B2DFDB
+    </color>
+
+    <color name="textcolorHeader">#069ECF</color>
+    <color name="textColorSecondary">#A5A5A5</color>
+
+    <!--switch color-->
+
+    <color name="thumb_active">#069ECF</color>
+    <color name="track_active">#66069ECF</color>
+
+    <color name="thumb_inactive">#A5A5A5</color>
+    <color name="track_inactive">#66A5A5A5</color>
+
+
+    <color name="switch_color">#A5A5A5</color>
+    <color name="track_color">#66A5A5A5</color>
+
+
+</resources>

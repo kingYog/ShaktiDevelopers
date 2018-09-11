@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/Margin10"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonHeight"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/mtexTotalExpence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No Expence"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/addExpence"
+                android:layout_width="@dimen/buttonWidth"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:background="@drawable/new_button_blue"
+                android:gravity="center"
+                android:text="+ Add Expence"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text15" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl1"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+</RelativeLayout>

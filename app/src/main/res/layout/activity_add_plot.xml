@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yogeshborhade.shaktidevelopers.HomePageFolder.ProjectPlot.AddPlot">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Plot"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/mbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:drawable/alert_light_frame"
+            android:text="back" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:layout_margin="@dimen/Margin10"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mbuttonImport"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonHeight"
+            android:background="@color/colorPrimary"
+            android:text="Import From Excel"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Plot_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin20"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Plot Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Plot_east"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotEastSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Plot East Size"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Plot_west"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotWestSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Plot West Size"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Plot_North"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotNorthSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Plot North Size"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Plot_south"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotSouthSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Plot South Size"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Plot_total_size"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotTotalSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Plot Total Size"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotPricePerSqureFoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Please Enter Prize per Squre foot"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="@dimen/text12">
+
+            <EditText
+                android:id="@+id/medtPlotPriceSelligPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter total Saling Price"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/mSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/alert_light_frame"
+            android:text="Submit"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

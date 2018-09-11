@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <LinearLayout
+            android:id="@+id/rowmainLayour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:orientation="vertical"
+            android:padding="@dimen/Margin10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Transaction ID:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextTransactionID"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="001246"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Transaction Amount:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtexTotalTransactionAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="Plants"
+                    android:textColor="@color/colorAccent"
+
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Money Give Take"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextTransactionGiveTake"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="2000"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Date"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextTransactionDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="29/10/90"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Remark"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextTransactionRemark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="29/10/90"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Payment Mode"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextTransactionPaymentType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="29/10/90"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Payment Mode Number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextTransactionPaymentNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="29/10/90"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/mdelete_Transaction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/new_color_Shade2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/Margin30"
+                android:layout_height="@dimen/Margin30"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:src="@drawable/icon_delete" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

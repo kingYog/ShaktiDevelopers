@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yogeshborhade.shaktidevelopers.CreatePDf">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/buttonHeight">
+
+        <RelativeLayout
+            android:id="@+id/idForSaving"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/Margin10">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/marathi_ShaktiDeveloper"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text18"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ll1"
+                android:layout_margin="@dimen/Margin10"
+                android:orientation="vertical"
+
+                android:weightSum="5">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.8"
+                    android:background="@drawable/extra_rounded_corner_white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/Margin5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="प्लॉट तपशील"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text15"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_Name"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_Addres"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextAdd"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_Mobile_Number"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextMobileNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_Project"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextProjectName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_TotalArea"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextTotalArea"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/marathi_East"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/marathi_West"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/marathi_North"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/marathi_South"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:id="@+id/mtextEast"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="East"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextWest"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="West"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextNorth"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="North"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextSouth"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="South"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/Margin5"
+                    android:layout_weight="1"
+                    android:background="@drawable/extra_rounded_corner_white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/Margin5">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="रकमेची माहिती"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text15"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin5"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_TotalAmount"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextTotalAmount"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_BookingAmount"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextBookingAmount"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_RegistrationDate"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextRegistertationDate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="@string/marathi_RemainingAmount"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mtextRemainingAmount"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.6"
+                            android:text="Name"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/Margin5"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/extra_rounded_corner_white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/Margin5">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="सूचना"
+                        android:textColor="@color/colorRED"
+                        android:textSize="@dimen/text15"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/marathi_Note1"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/colorRED"
+                        android:textSize="@dimen/text12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/marathi_Note2"
+                        android:textColor="@color/colorRED"
+                        android:textSize="@dimen/text12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/marathi_Note3"
+                        android:textColor="@color/colorRED"
+                        android:textSize="@dimen/text12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/marathi_Note4"
+                        android:textColor="@color/colorRED"
+                        android:textSize="@dimen/text12" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/Margin10"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/extra_rounded_corner_white"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+
+                        <ImageView
+                            android:id="@+id/mCustomerSignature"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_centerInParent="true"
+                            android:layout_weight="1.5" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="@string/marathi_kharedi_karnar"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:id="@+id/mdeveloperSignature"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_centerInParent="true"
+                            android:layout_weight="1.5" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:text="@string/marathi_shakti_developers_karita"
+                            android:textColor="@color/colorRED"
+                            android:textSize="@dimen/text12"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/Margin5"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="SaveClick"
+            android:text="Print"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text12"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

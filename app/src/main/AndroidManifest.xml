@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yogeshborhade.shaktidevelopers">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/images"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+
+            android:name=".HomePageFolder.ProjectHome.HomePage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".LoginPage.LoginPage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectHome.ProjectDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectExpence.AddExpence"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectPlot.AddPlot"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectCustomer.AddCustomer"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectFarmer.AddFarmer"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectHome.AddProject"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectExpence.ExpenceDetail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectPlot.UpdatePlot"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectHome.UpdateProject"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectCustomer.CustomerUpdate"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectFarmer.Update_Farmer"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectPlot.BookPlot"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.ProjectTransaction.TransactionDetails"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.NotificationPannel.NotificationPage"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".CreatePDf"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ReadPDF"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".HomePageFolder.Result.ResultPage"
+            android:screenOrientation="portrait"
+
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Notification.SetNotification"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- Register the Alarm Receiver -->
+        <receiver
+            android:name=".Notification.AlarmReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+
+            android:name=".HomePageFolder.ProjectCustomer.CustomerPlotDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectCustomer.CustomerPlotTransactionDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectFarmer.FarmerTransactionDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.CustomerDetailsPdf.GetAllCustomerByProject"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.PanCard.AddPanCard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".Signature.CaptureSignature"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectFarmer.FarmerPanCard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- <activity android:name=".SpinnerWithEditextDemo.SpinnerWithEditext"></activity> -->
+        <activity
+
+            android:name=".HomePageFolder.ProjectPlot.BookPlotAllocateCustomerToPlot"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectPlot.BookPlotMainPage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".HomePageFolder.ProjectPlot.BookPlotAllocatedCustomerDetailsWithPrint"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+
+            android:name=".ExpencePage.DeleteExpence"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+        <activity
+
+            android:name=".SaveDatabase.SaveDatabase"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+    </application>
+
+</manifest>

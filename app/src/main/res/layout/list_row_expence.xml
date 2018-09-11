@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame">
+
+
+        <LinearLayout
+            android:id="@+id/rowmainLayour"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/Margin10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Expence ID:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextExpenceID"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="001246"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Expence Details:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextExpanceName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="Plants"
+                    android:textColor="@color/colorAccent"
+
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Expence Amount"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextExpenceAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="2000"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Expence Date"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextExpenceDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="00"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Expence Mode"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextExpenceType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="0100"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/mllExpenceNumber"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Expence Mode Number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+
+                <TextView
+                    android:id="@+id/mtextExpenceTypeNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="00"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/mbuttonEditExpence"
+                android:layout_width="@dimen/buttonWidth"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/Margin10"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/new_color_button"
+                android:gravity="center"
+                android:text="Edit Expence"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

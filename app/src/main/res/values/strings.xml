@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">ShaktiDevelopers</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    // Drawer
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_AddProject">Add Project</string>
+    <string name="nav_item_RemindNotification">Remind Notification</string>
+    <string name="nav_item_ViewNotification">View Notification</string>
+    <string name="nav_item_AllCustomer">View All Customer</string>
+    <string name="nav_item_DeleteExpence">Delete Expence Name</string>
+    <string name="nav_item_BackUpData">Back Up And Restore</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_AddProject</item>
+        <item>@string/nav_item_RemindNotification</item>
+        <item>@string/nav_item_ViewNotification</item>
+        <item>@string/nav_item_AllCustomer</item>
+        <item>@string/nav_item_DeleteExpence</item>
+        <item>@string/nav_item_BackUpData</item>
+
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+
+    // Login With Finger Print
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+
+    <!--    <string name="marathi_shree_ganesh_prassana"> श्री गणेश प्रसन्ना
+शक्ती डेव्हलपर
+पोलिस स्टेशन समोर, आळंदी देवेची, ता. शेड, जि पु
+मो. नंबर 99190907071/9130907071</string>-->
+
+    <string name="marathi_ShaktiDeveloper">शक्ती डेव्हलपर्स</string>
+    <string name="marathi_ShaktiDeveloper_Adrss">पोलीस स्टेशन समोर,आळंदी देवाची,ता.खेड,जिल्हा पुणे </string>
+
+
+    <string name="marathi_Name">नाव</string>
+    <string name="marathi_Addres">पत्ता</string>
+    <string name="marathi_Mobile_Number">मोबाइल नंबर</string>
+    <string name="marathi_Project">प्रकल्प</string>
+    <string name="marathi_TotalArea">एकूण क्षेत्र</string>
+    <string name="marathi_East">पूर्व</string>
+    <string name="marathi_West">पश्चिम</string>
+    <string name="marathi_North">उत्तर</string>
+    <string name="marathi_South">दक्षिण</string>
+    <string name="marathi_TotalAmount">एकूण रक्कम</string>
+    <string name="marathi_BookingAmount">बुकिंग रक्कम</string>
+    <string name="marathi_RegistrationDate">नोंदणी दिनांक</string>
+    <string name="marathi_RemainingAmount">नोंदणीची रक्कम</string>
+    <string name="marathi_Note1">1) खरेदी खाता साठी लागणार खर्च व प्लॉटची किंमत रुपये किंवा चेक खरेदी खताच्या आधी १ दिवस ऑफिस मध्ये जमा करावी लागेल</string>
+    <string name="marathi_Note2">2) बुकिंग केलेला प्लॉट रद्द करावयाचा असल्यास १० दिवसांच्या आत लेखी अर्जाने कळवावे. तसे न केल्यास बुकिंग रक्कम परत मिळणार नाही .</string>
+    <string name="marathi_Note3">3) काही कारणात्सव बदल करण्याचे अधिकार शक्ती डेव्हलपर्स कडे राहतील .</string>
+    <string name="marathi_Note4">4) प्लॉटच्या मालकी हक्कासाठी लागणार सर्व खर्च (वकील फी ,स्टॅम्प ड्युटी ,रेजिस्ट्रेशन फी, नोंदी व इतर) हा प्लॉट धारकाने करावयाचा  आहे . वरील सूचना मी वाचली आहे व ती मला मान्य आहे </string>
+    <string name="marathi_kharedi_karnar">खरेदी करणाराची सही</string>
+    <string name="marathi_shakti_developers_karita">शक्ती डेव्हलपर्स करिता सही </string>
+
+
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will remind you to make entiries of your expense</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+
+    // Edit Array Spinner
+    <string-array name="edits_array_1">
+        <item>What is your favorite color?</item>
+        <item>When is your dad\'s birthday?</item>
+        <item>When was your first date?</item>
+        <item>Who was your childhood hero?</item>
+        <item>What is GF/BF\'s nickname?</item>
+    </string-array>
+
+    <string-array name="edits_array_2">
+        <item>text one</item>
+        <item>text two</item>
+        <item>text three</item>
+        <item>custom text</item>
+    </string-array>
+    <string name="title_activity_expence_name_list_details">ExpenceNameListDetails</string>
+
+</resources>

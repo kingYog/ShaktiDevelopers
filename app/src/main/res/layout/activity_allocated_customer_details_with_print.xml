@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.yogeshborhade.shaktidevelopers.HomePageFolder.ProjectPlot.BookPlotAllocatedCustomerDetailsWithPrint">
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/mbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:drawable/alert_light_frame"
+            android:text="back" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl1"
+        android:layout_margin="@dimen/Margin10"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/buttonHeight"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Project ID"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mprojectID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Project Id"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Plot ID"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mplotID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Plot ID"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Total Area in Squre Foot"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mTotalArea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Total Area in Squre Foot"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Rate Per Squre Foot"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mRatePerSqureFoot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rate Per Squre Foot"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Total Amount"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mTotalAmMount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Total Amount"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin10"
+                android:background="@drawable/extra_rounded_corner_white"
+                android:orientation="vertical"
+                android:padding="@dimen/Margin10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin10"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/buttonHeight"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Bookking Amount"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/buttonHeight"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Remaining Amount"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/medtBookingAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/buttonHeight"
+                        android:layout_margin="@dimen/Margin10"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:singleLine="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimary"
+                        android:textSize="@dimen/text12" />
+
+                    <TextView
+                        android:id="@+id/mtextRemainingAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/buttonHeight"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/Margin10"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="000"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text12" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Payment Mode"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text12"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/mpaymentModeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_expence_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/expence_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mode Number"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Registration Date "
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/Margin10"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/mimgRegistrationDatePicker"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/date_picker"
+                    android:text="add Date" />
+
+
+                <TextView
+                    android:id="@+id/mtextregistrationDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/mimgRegistrationDatePicker"
+                    android:gravity="center"
+                    android:text="Please Select Registration Date "
+                    android:textColor="@color/colorBlue"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Amount Paying Date"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/Margin10"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/mimgAmountPayingDatePicker"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/date_picker"
+                    android:text="add Date" />
+
+
+                <TextView
+                    android:id="@+id/mtextAmountPayintgPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/mimgAmountPayingDatePicker"
+                    android:gravity="center"
+                    android:text="Please Select Amount Paying Date"
+                    android:textColor="@color/colorBlue"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Next CommitMent Date"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/Margin10"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/mimgNextCommitmentDatePicker"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/date_picker"
+                    android:text="add Date" />
+
+
+                <TextView
+                    android:id="@+id/mtextnextCommitMentDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/mimgNextCommitmentDatePicker"
+                    android:gravity="center"
+                    android:text="Please Next Commitment Date"
+                    android:textColor="@color/colorBlue"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/Margin10"
+                android:text="Notifications"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin10"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="@dimen/text12"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/medtPlotNotificationRemark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Please Enter Notification Remark"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text12" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin10"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/mimgCustomerNotificationRemarkDatePicker"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/date_picker"
+                    android:text="add Date" />
+
+
+                <TextView
+                    android:id="@+id/mtextCustomerCustomerRemarkDatePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/mimgCustomerNotificationRemarkDatePicker"
+                    android:gravity="center"
+                    android:text="Please Enter Notification Date"
+                    android:textColor="@color/colorBlue"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/colorBlue"
+                android:visibility="gone"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/mCancelBooking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/Margin10"
+                    android:background="@drawable/new_button_blue"
+                    android:gravity="center"
+                    android:padding="@dimen/Margin5"
+                    android:text="Cancel Booking"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/mViewInvoic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/Margin10"
+                    android:background="@drawable/new_button_blue"
+                    android:gravity="center"
+                    android:padding="@dimen/Margin5"
+                    android:text="View Invoice"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

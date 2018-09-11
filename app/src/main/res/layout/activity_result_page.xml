@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePageFolder.Result.ResultPage">
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Project Reports"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text20"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/mbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:drawable/alert_light_frame"
+            android:text="back" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Margin10"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/mbtnProjectReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Project Report"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text12"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mbtnCustomerReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/Margin5"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Customer"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text12"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mbtnFarmerReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/Margin5"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Farmer"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text12"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/DBRLMargin">
+
+        <FrameLayout
+            android:id="@+id/mFrameResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlmain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/Margin10"
+    android:background="@android:drawable/alert_light_frame"
+    android:padding="@dimen/Margin10">
+
+
+    <LinearLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/Margin10"
+        android:weightSum="5">
+
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mtextProjectName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:text="Project Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text18"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/Margin5"
+                android:background="@color/colorTealLight"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Project ID:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mtextProjectID"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="001246"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Adress :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mtextProjectAdress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="New Sangvi"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Total Plot:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mtextTotalPlot"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="50"
+                    android:textColor="@color/colorBlue"
+
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Sale Plot:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mtextSalePlot"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="20"
+                    android:textColor="@color/colorRED"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Available Plots:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mtextAvailablePlot"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="30"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="@dimen/text15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+
+            android:id="@+id/rlrighArrow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/colorTealLight1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mImageNext"
+                android:layout_width="@dimen/iconImage"
+                android:layout_height="@dimen/iconImage"
+                android:layout_centerInParent="true"
+                android:src="@drawable/right_arrow" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rl1"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorTeal"></View>
+</RelativeLayout>

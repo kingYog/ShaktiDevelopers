@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">500dp</dimen>
+
+    // Home Page Fragment
+    <dimen name="homePageListRowHeight">150dp</dimen>
+    <dimen name="homePageListtextLarge">25dp</dimen>
+    <dimen name="homePageListtextmedium">20dp</dimen>
+    <dimen name="homePageListtextsmall">18dp</dimen>
+
+    <dimen name="Margin5">8dp</dimen>
+    <dimen name="Margin10">12dp</dimen>
+    <dimen name="Margin20">22dp</dimen>
+    <dimen name="Margin30">32dp</dimen>
+    <dimen name="Margin40">42dp</dimen>
+    <dimen name="Margin50">55dp</dimen>
+
+
+    // Dash Board
+    <dimen name="DBPadding">15dp</dimen>
+    <dimen name="DBllHeight">40dp</dimen>
+    <dimen name="DBRLMargin">12dp</dimen>
+    <dimen name="DBTextSize">20dp</dimen>
+    <dimen name="DBTabWidth">140dp</dimen>
+    <dimen name="DBTabHeight">100dp</dimen>
+    <dimen name="DBTabLeftMargin">4dp</dimen>
+
+    // Home Page Project Details
+
+    <dimen name="text12">15dp</dimen>
+    <dimen name="text15">18dp</dimen>
+    <dimen name="text18">20dp</dimen>
+    <dimen name="text20">22dp</dimen>
+    <dimen name="iconImage">35dp</dimen>
+
+    <dimen name="buttonWidth">140dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+
+
+
+    <dimen name="rlplotImage">300dp</dimen>
+    <dimen name="plotImage">200dp</dimen>
+
+    //text for timer
+
+
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="large_text">16sp</dimen>
+
+    <dimen name="items_inbetween_space">8dp</dimen>
+    <dimen name="items_top_padding">4dp</dimen>
+
+    <dimen name="timer_icon">20dp</dimen>
+
+</resources>

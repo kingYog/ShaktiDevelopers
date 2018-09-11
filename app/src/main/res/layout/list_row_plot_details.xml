@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlmain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/alert_light_frame">
+
+    <LinearLayout
+        android:id="@+id/rowmainLayour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Plot Number"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="East"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:text="West"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text12"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:text="North"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="South"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/Margin10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/mtextPlotNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Plot Number"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/mtextPlotEast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="East"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/mtextPlotWast"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="West"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/mtextPlotNorth"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="North"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mtextPlotSouth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="South"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/Margin5"
+            android:background="@color/colorAccent"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin10"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Total Area sqft"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+
+            <TextView
+                android:id="@+id/mtexttotalArea"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="900"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin5"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Total Price"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+
+            <TextView
+                android:id="@+id/mtexttotalPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="900"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin5"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Project Status "
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text12" />
+
+            <TextView
+                android:id="@+id/plotstatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Sold/ Available"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text15"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/mbuttonBook"
+                android:layout_width="@dimen/buttonWidth"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/Margin10"
+                android:layout_marginTop="@dimen/Margin10"
+                android:background="@color/new_color_button"
+                android:gravity="center"
+                android:text="Book Plot"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text12"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
